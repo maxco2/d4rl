@@ -9,14 +9,14 @@ D4RL is an open-source benchmark for offline reinforcement learning. It provides
 
 D4RL can be installed by cloning the repository as follows:
 ```
-git clone https://github.com/rail-berkeley/d4rl.git
+git clone https://github.com/maxco2/d4rl.git
 cd d4rl
 pip install -e .
 ```
 
 Or, alternatively:
 ```
-pip install git+https://github.com/rail-berkeley/d4rl@master#egg=d4rl
+pip install git+https://github.com/maxco2/d4rl@master#egg=d4rl
 ```
 
 The control environments require MuJoCo as a dependency. You may need to obtain a [license](https://www.roboti.us/license.html) and follow the setup instructions for mujoco_py. This mostly involves copying the key to your MuJoCo installation folder.
